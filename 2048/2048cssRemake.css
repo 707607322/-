@@ -1,0 +1,192 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    height: 100%;
+    background-image: url("111-副本.png");
+    background-position: 1% 9%;
+
+}
+.scoreAndBest{
+
+    height: 20rem;
+
+}
+
+#mainContent{
+    height: 50rem;
+    width: 50rem;
+    left:50%;
+
+    margin-left:-25rem;
+
+    background: #c3c3c4;
+    position:absolute;
+    border-radius: .5em;
+    padding: 5px;
+}
+
+
+#start{
+    position: relative;
+    top:50.5rem;
+    left: 50%;
+    margin-left: -5rem;
+    display: inline-block;
+    background-color: bisque;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    width: 10rem;
+    border-radius: .5em;
+    font-size: 2rem;
+}
+.cell{
+    height: 12.1rem;
+    width: 12.1rem;
+    background-color: blanchedalmond;
+    display: block;
+    border-radius: .5em;
+    text-align: center;
+    line-height: 12.1rem;
+    position: absolute;
+    font-size: 5rem;
+}
+.gameOver{
+    position: absolute;
+    left: 50%;
+    width: 50rem;
+    height: 50rem;
+    z-index: 100;
+    background-color: #fb6501;
+    font-size: 16rem;
+    margin-left:-25rem;
+    border-radius: .15em;
+    text-align: center;
+    line-height: 50rem;
+}
+.score{
+    height: 10rem;
+    width: 25rem;
+    top: 10rem;
+    text-align: center;
+    line-height: 10rem;
+    font-size: 4rem;
+
+    display: inline-block;
+    margin-left:-50.55rem;
+    background-color: #000000;
+    color: #fffffd;
+    left: 50%;
+    position: relative;
+}
+.scoreText{
+    height: 10rem;
+    width: 25rem;
+
+    text-align: center;
+    line-height: 10rem;
+    font-size: 4rem;
+
+    display: inline-block;
+    background-color: #000000;
+    color: #fffffd;
+    left: 50%;
+    position: relative;
+    margin-left:-25rem;
+
+}
+.bestText{
+    display: inline-block;
+    height: 10rem;
+    width: 25rem;
+    background-color: #000000;
+    color: #fffffd;
+    left: 50%;
+    position: relative;
+
+    text-align: center;
+    line-height: 10rem;
+    font-size: 4rem;
+
+}
+.best{
+    display: inline-block;
+
+    height: 10rem;
+    width: 25rem;
+    background-color: #000000;
+    color: #fffffd;
+    left: 50%;
+    top: 10rem;
+    position: relative;
+
+    text-align: center;
+    line-height: 10rem;
+    font-size: 4rem;
+}
+
+
+/*前方丢人*/
+.x1y0{
+    left: 13rem;
+}
+.x2y0{
+    left: 25.5rem;
+}
+.x3y0{
+    left: 38rem
+}
+.x0y1{
+    top: 13rem;
+}
+.x1y1{
+    left: 13rem;
+    top: 13rem;
+}
+.x2y1{
+    left: 25.5rem;
+    top: 13rem;
+}
+.x3y1{
+    left: 38rem;
+    top: 13rem;
+}
+.x0y2{
+    top:25.5rem;
+}
+.x1y2{
+    left: 13rem;
+    top: 25.5rem;
+}
+.x2y2{
+    left: 25.5rem;
+    top: 25.5rem;
+}
+.x3y2{
+    left: 38rem;
+    top: 25.5rem;
+}
+.x0y3{
+    top: 38rem;
+}
+.x1y3{
+    left: 13rem;
+    top: 38rem;
+}
+.x2y3{
+    left: 25.5rem;
+    top: 38rem;
+}
+.x3y3{
+    left: 38rem;
+    top: 38rem;
+}
+@media screen and (max-width: 700px){
+    html{
+        font-size: 5px;
+    }
+
+}
+
